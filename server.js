@@ -10,27 +10,25 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 var names = [{
-    ID: 1,
+   
     name: "Luis",
     Email: "luis@luis.com",
     phone: "551-482-8190"
 
 },
 {
-    ID: 2,
     name: "Robert",
     Email: "robert@robert.com",
     phone: "123-456-7890"
 },
 {
-    ID: 3,
+   
     name: "David",
     Email:"david@david.com",
     phone: "201-233-4093"
 },
 {
-    ID: 4,
-    name: "Raff",
+   name: "Raff",
     Email: "raff@raff.com",
     phone: "345-213-3455"
 }]
